@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+ http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="nlabel" for="node" attr.name="label" attr.type="string"/>
+<key id="nx" for="node" attr.name="x" attr.type="double"/>
+<key id="ny" for="node" attr.name="y" attr.type="double"/>
+<key id="nz" for="node" attr.name="z" attr.type="double"/>
+<key id="nt" for="node" attr.name="t" attr.type="double"/>
+<key id="elabel" for="edge" attr.name="label" attr.type="string"/>
+<key id="epl" for="edge" attr.name="plabel" attr.type="int"/>
+<key id="epid" for="edge" attr.name="pid" attr.type="int"/>
+<key id="estat" for="edge" attr.name="pstat" attr.type="int"/>
+<key id="ept" for="edge" attr.name="pT" attr.type="double"/>
+<key id="eeta" for="edge" attr.name="eta" attr.type="double"/>
+<key id="ephi" for="edge" attr.name="phi" attr.type="double"/>
+<key id="ee" for="edge" attr.name="E" attr.type="double"/>
+<graph id="G" edgedefault="directed">
+<node id="0">
+<data key="nlabel">0(0.000)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0</data>
+</node>
+<node id="1">
+<data key="nlabel">1(0.000)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0</data>
+</node>
+<node id="2">
+<data key="nlabel">2(0.010)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.01</data>
+</node>
+<node id="3">
+<data key="nlabel">3(0.010)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.01</data>
+</node>
+<node id="4">
+<data key="nlabel">4(0.030)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.03</data>
+</node>
+<node id="5">
+<data key="nlabel">5(0.030)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.03</data>
+</node>
+<node id="6">
+<data key="nlabel">6(0.050)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.05</data>
+</node>
+<node id="7">
+<data key="nlabel">7(0.050)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.05</data>
+</node>
+<node id="8">
+<data key="nlabel">8(0.060)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.06</data>
+</node>
+<node id="9">
+<data key="nlabel">9(0.090)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.09</data>
+</node>
+<node id="10">
+<data key="nlabel">10(0.090)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.09</data>
+</node>
+<node id="11">
+<data key="nlabel">11(0.120)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.12</data>
+</node>
+<node id="12">
+<data key="nlabel">12(0.120)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.12</data>
+</node>
+<node id="13">
+<data key="nlabel">13(0.160)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.16</data>
+</node>
+<node id="14">
+<data key="nlabel">14(0.160)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.16</data>
+</node>
+<node id="15">
+<data key="nlabel">15(0.180)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.18</data>
+</node>
+<node id="16">
+<data key="nlabel">16(0.240)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.24</data>
+</node>
+<node id="17">
+<data key="nlabel">17(0.240)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.24</data>
+</node>
+<node id="18">
+<data key="nlabel">18(0.250)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.25</data>
+</node>
+<node id="19">
+<data key="nlabel">19(0.250)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.25</data>
+</node>
+<node id="20">
+<data key="nlabel">20(0.270)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.27</data>
+</node>
+<node id="21">
+<data key="nlabel">21(0.270)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.27</data>
+</node>
+<node id="22">
+<data key="nlabel">22(0.290)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.29</data>
+</node>
+<node id="23">
+<data key="nlabel">23(0.380)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.38</data>
+</node>
+<node id="24">
+<data key="nlabel">24(0.480)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.48</data>
+</node>
+<node id="25">
+<data key="nlabel">25(0.480)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.48</data>
+</node>
+<node id="26">
+<data key="nlabel">26(0.570)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.57</data>
+</node>
+<node id="27">
+<data key="nlabel">27(0.570)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.57</data>
+</node>
+<node id="28">
+<data key="nlabel">28(0.700)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.7</data>
+</node>
+<node id="29">
+<data key="nlabel">29(0.700)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.7</data>
+</node>
+<node id="30">
+<data key="nlabel">30(0.740)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.74</data>
+</node>
+<node id="31">
+<data key="nlabel">31(0.780)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.78</data>
+</node>
+<node id="32">
+<data key="nlabel">32(0.810)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.81</data>
+</node>
+<node id="33">
+<data key="nlabel">33(0.940)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">0.94</data>
+</node>
+<node id="34">
+<data key="nlabel">34(1.030)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.03</data>
+</node>
+<node id="35">
+<data key="nlabel">35(1.150)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.15</data>
+</node>
+<node id="36">
+<data key="nlabel">36(1.150)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.15</data>
+</node>
+<node id="37">
+<data key="nlabel">37(1.200)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.2</data>
+</node>
+<node id="38">
+<data key="nlabel">38(1.200)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.2</data>
+</node>
+<node id="39">
+<data key="nlabel">39(1.310)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.31</data>
+</node>
+<node id="40">
+<data key="nlabel">40(1.440)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.44</data>
+</node>
+<node id="41">
+<data key="nlabel">41(1.510)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.51</data>
+</node>
+<node id="42">
+<data key="nlabel">42(1.510)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.51</data>
+</node>
+<node id="43">
+<data key="nlabel">43(1.560)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.56</data>
+</node>
+<node id="44">
+<data key="nlabel">44(1.680)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.68</data>
+</node>
+<node id="45">
+<data key="nlabel">45(1.680)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.68</data>
+</node>
+<node id="46">
+<data key="nlabel">46(1.680)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.68</data>
+</node>
+<node id="47">
+<data key="nlabel">47(1.730)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.73</data>
+</node>
+<node id="48">
+<data key="nlabel">48(1.780)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.78</data>
+</node>
+<node id="49">
+<data key="nlabel">49(1.780)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.78</data>
+</node>
+<node id="50">
+<data key="nlabel">50(1.880)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.88</data>
+</node>
+<node id="51">
+<data key="nlabel">51(1.960)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.96</data>
+</node>
+<node id="52">
+<data key="nlabel">52(1.960)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">1.96</data>
+</node>
+<node id="53">
+<data key="nlabel">53(2.160)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.16</data>
+</node>
+<node id="54">
+<data key="nlabel">54(2.200)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.2</data>
+</node>
+<node id="55">
+<data key="nlabel">55(2.300)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.3</data>
+</node>
+<node id="56">
+<data key="nlabel">56(2.490)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.49</data>
+</node>
+<node id="57">
+<data key="nlabel">57(2.510)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.51</data>
+</node>
+<node id="58">
+<data key="nlabel">58(2.560)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.56</data>
+</node>
+<node id="59">
+<data key="nlabel">59(2.610)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.61</data>
+</node>
+<node id="60">
+<data key="nlabel">60(2.610)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.61</data>
+</node>
+<node id="61">
+<data key="nlabel">61(2.610)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.61</data>
+</node>
+<node id="62">
+<data key="nlabel">62(2.670)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.67</data>
+</node>
+<node id="63">
+<data key="nlabel">63(2.720)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.72</data>
+</node>
+<node id="64">
+<data key="nlabel">64(2.740)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.74</data>
+</node>
+<node id="65">
+<data key="nlabel">65(2.950)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.95</data>
+</node>
+<node id="66">
+<data key="nlabel">66(2.950)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">2.95</data>
+</node>
+<node id="67">
+<data key="nlabel">67(3.130)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">3.13</data>
+</node>
+<node id="68">
+<data key="nlabel">68(3.170)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">3.17</data>
+</node>
+<node id="69">
+<data key="nlabel">69(3.320)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">3.32</data>
+</node>
+<node id="70">
+<data key="nlabel">70(3.400)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">3.4</data>
+</node>
+<node id="71">
+<data key="nlabel">71(4.040)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.04</data>
+</node>
+<node id="72">
+<data key="nlabel">72(4.140)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.14</data>
+</node>
+<node id="73">
+<data key="nlabel">73(4.190)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.19</data>
+</node>
+<node id="74">
+<data key="nlabel">74(4.210)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.21</data>
+</node>
+<node id="75">
+<data key="nlabel">75(4.270)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.27</data>
+</node>
+<node id="76">
+<data key="nlabel">76(4.600)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.6</data>
+</node>
+<node id="77">
+<data key="nlabel">77(4.850)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.85</data>
+</node>
+<node id="78">
+<data key="nlabel">78(4.960)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.96</data>
+</node>
+<node id="79">
+<data key="nlabel">79(4.960)</data>
+<data key="nx">0</data>
+<data key="ny">0</data>
+<data key="nz">0</data>
+<data key="nt">4.96</data>
+</node>
+<edge id="0" source="0" target="1">
+<data key="elabel">100.000000</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">100</data>
+<data key="eeta">0</data>
+<data key="ephi">2.13228</data>
+<data key="ee">100</data>
+</edge>
+<edge id="1" source="1" target="2">
+<data key="elabel">53.122900</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">53.1229</data>
+<data key="eeta">0</data>
+<data key="ephi">2.13228</data>
+<data key="ee">98.5551</data>
+</edge>
+<edge id="2" source="1" target="3">
+<data key="elabel">10.526000</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">10.526</data>
+<data key="eeta">0</data>
+<data key="ephi">5.27388</data>
+<data key="ee">10.5734</data>
+</edge>
+<edge id="3" source="2" target="4">
+<data key="elabel">50.273500</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">50.2735</data>
+<data key="eeta">0.0790964</data>
+<data key="ephi">2.02924</data>
+<data key="ee">86.2576</data>
+</edge>
+<edge id="4" source="2" target="5">
+<data key="elabel">6.037520</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">6.03752</data>
+<data key="eeta">0.623626</data>
+<data key="ephi">3.16077</data>
+<data key="ee">12.2975</data>
+</edge>
+<edge id="5" source="4" target="6">
+<data key="elabel">66.814100</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">66.8141</data>
+<data key="eeta">0.0903332</data>
+<data key="ephi">2.0243</data>
+<data key="ee">69.6757</data>
+</edge>
+<edge id="6" source="4" target="7">
+<data key="elabel">16.543200</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.5432</data>
+<data key="eeta">0.0320647</data>
+<data key="ephi">5.15089</data>
+<data key="ee">16.5819</data>
+</edge>
+<edge id="7" source="3" target="8">
+<data key="elabel">9.504790</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.50479</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.51154</data>
+</edge>
+<edge id="8" source="6" target="9">
+<data key="elabel">46.730100</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">46.7301</data>
+<data key="eeta">0.0150801</data>
+<data key="ephi">1.99054</data>
+<data key="ee">47.7508</data>
+</edge>
+<edge id="9" source="6" target="10">
+<data key="elabel">20.172400</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">20.1724</data>
+<data key="eeta">0.330682</data>
+<data key="ephi">2.10259</data>
+<data key="ee">21.925</data>
+</edge>
+<edge id="10" source="5" target="11">
+<data key="elabel">6.367970</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">6.36797</data>
+<data key="eeta">0.68316</data>
+<data key="ephi">3.05161</data>
+<data key="ee">11.232</data>
+</edge>
+<edge id="11" source="5" target="12">
+<data key="elabel">1.454190</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">1.45419</data>
+<data key="eeta">0.0800792</data>
+<data key="ephi">5.19991</data>
+<data key="ee">1.7705</data>
+</edge>
+<edge id="12" source="11" target="13">
+<data key="elabel">3.386920</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.38692</data>
+<data key="eeta">0.487445</data>
+<data key="ephi">2.51775</data>
+<data key="ee">4.19172</data>
+</edge>
+<edge id="13" source="11" target="14">
+<data key="elabel">3.858620</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.85862</data>
+<data key="eeta">0.824938</data>
+<data key="ephi">3.51463</data>
+<data key="ee">7.04032</data>
+</edge>
+<edge id="14" source="8" target="15">
+<data key="elabel">9.812000</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.812</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.812</data>
+</edge>
+<edge id="15" source="9" target="16">
+<data key="elabel">42.178400</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">42.1784</data>
+<data key="eeta">0.00264731</data>
+<data key="ephi">1.97956</data>
+<data key="ee">42.9915</data>
+</edge>
+<edge id="16" source="9" target="17">
+<data key="elabel">4.577690</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.57769</data>
+<data key="eeta">0.177031</data>
+<data key="ephi">2.09184</data>
+<data key="ee">4.75926</data>
+</edge>
+<edge id="17" source="14" target="18">
+<data key="elabel">3.657380</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.65738</data>
+<data key="eeta">0.835134</data>
+<data key="ephi">3.51245</data>
+<data key="ee">6.61811</data>
+</edge>
+<edge id="18" source="14" target="19">
+<data key="elabel">0.281369</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">0.281369</data>
+<data key="eeta">0.202091</data>
+<data key="ephi">5.84114</data>
+<data key="ee">1.06012</data>
+</edge>
+<edge id="19" source="18" target="20">
+<data key="elabel">1.983350</data>
+<data key="epl">0</data>
+<data key="epid">3</data>
+<data key="estat">0</data>
+<data key="ept">1.98335</data>
+<data key="eeta">1.02273</data>
+<data key="ephi">3.19918</data>
+<data key="ee">4.01987</data>
+</edge>
+<edge id="20" source="18" target="21">
+<data key="elabel">1.873100</data>
+<data key="epl">0</data>
+<data key="epid">3</data>
+<data key="estat">0</data>
+<data key="ept">1.8731</data>
+<data key="eeta">0.614741</data>
+<data key="ephi">3.84486</data>
+<data key="ee">2.59823</data>
+</edge>
+<edge id="21" source="7" target="22">
+<data key="elabel">16.414800</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.4148</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.15089</data>
+<data key="ee">16.4233</data>
+</edge>
+<edge id="22" source="17" target="23">
+<data key="elabel">26.428700</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">26.4287</data>
+<data key="eeta">0.181161</data>
+<data key="ephi">2.09184</data>
+<data key="ee">26.8636</data>
+</edge>
+<edge id="23" source="10" target="24">
+<data key="elabel">18.017600</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">18.0176</data>
+<data key="eeta">0.332267</data>
+<data key="ephi">2.1023</data>
+<data key="ee">19.4436</data>
+</edge>
+<edge id="24" source="10" target="25">
+<data key="elabel">2.147410</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">2.14741</data>
+<data key="eeta">0.316987</data>
+<data key="ephi">2.10529</data>
+<data key="ee">2.48885</data>
+</edge>
+<edge id="25" source="16" target="26">
+<data key="elabel">40.718100</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">40.7181</data>
+<data key="eeta">0.00262814</data>
+<data key="ephi">1.97958</data>
+<data key="ee">41.3776</data>
+</edge>
+<edge id="26" source="16" target="27">
+<data key="elabel">1.374490</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">1.37449</data>
+<data key="eeta">0.00375815</data>
+<data key="ephi">1.97838</data>
+<data key="ee">1.69979</data>
+</edge>
+<edge id="27" source="24" target="28">
+<data key="elabel">14.263400</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">14.2634</data>
+<data key="eeta">0.290165</data>
+<data key="ephi">2.13784</data>
+<data key="ee">15.0431</data>
+</edge>
+<edge id="28" source="24" target="29">
+<data key="elabel">3.797200</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.7972</data>
+<data key="eeta">0.486434</data>
+<data key="ephi">1.96843</data>
+<data key="ee">4.40046</data>
+</edge>
+<edge id="29" source="25" target="30">
+<data key="elabel">2.115220</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">2.11522</data>
+<data key="eeta">0.343968</data>
+<data key="ephi">2.13118</data>
+<data key="ee">2.27205</data>
+</edge>
+<edge id="30" source="29" target="31">
+<data key="elabel">3.843560</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.84356</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.96843</data>
+<data key="ee">4.33765</data>
+</edge>
+<edge id="31" source="30" target="32">
+<data key="elabel">2.088760</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">2.08876</data>
+<data key="eeta">0.348463</data>
+<data key="ephi">2.13118</data>
+<data key="ee">2.21686</data>
+</edge>
+<edge id="32" source="22" target="33">
+<data key="elabel">16.735500</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.7355</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.15089</data>
+<data key="ee">16.7441</data>
+</edge>
+<edge id="33" source="31" target="34">
+<data key="elabel">3.969390</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">3.96939</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.96843</data>
+<data key="ee">4.47966</data>
+</edge>
+<edge id="34" source="15" target="35">
+<data key="elabel">9.872620</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.87262</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.87262</data>
+</edge>
+<edge id="35" source="32" target="36">
+<data key="elabel">2.023010</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">2.02301</data>
+<data key="eeta">0.348463</data>
+<data key="ephi">2.13118</data>
+<data key="ee">2.14708</data>
+</edge>
+<edge id="36" source="26" target="37">
+<data key="elabel">40.293400</data>
+<data key="epl">0</data>
+<data key="epid">1</data>
+<data key="estat">0</data>
+<data key="ept">40.2934</data>
+<data key="eeta">0.00265768</data>
+<data key="ephi">1.97958</data>
+<data key="ee">40.4931</data>
+</edge>
+<edge id="37" source="26" target="38">
+<data key="elabel">0.272728</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">0.272728</data>
+<data key="eeta">0.000692666</data>
+<data key="ephi">1.9796</data>
+<data key="ee">1.03652</data>
+</edge>
+<edge id="38" source="35" target="39">
+<data key="elabel">9.811170</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.81117</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.81117</data>
+</edge>
+<edge id="39" source="33" target="40">
+<data key="elabel">16.625200</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.6252</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.15089</data>
+<data key="ee">16.6338</data>
+</edge>
+<edge id="40" source="20" target="41">
+<data key="elabel">1.475470</data>
+<data key="epl">0</data>
+<data key="epid">3</data>
+<data key="estat">0</data>
+<data key="ept">1.47547</data>
+<data key="eeta">1.0545</data>
+<data key="ephi">3.20231</data>
+<data key="ee">2.93771</data>
+</edge>
+<edge id="41" source="20" target="42">
+<data key="elabel">0.402015</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">0.402015</data>
+<data key="eeta">0.57724</data>
+<data key="ephi">3.10063</data>
+<data key="ee">1.26239</data>
+</edge>
+<edge id="42" source="40" target="43">
+<data key="elabel">16.101500</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.1015</data>
+<data key="eeta">0.0321227</data>
+<data key="ephi">5.12138</data>
+<data key="ee">16.1101</data>
+</edge>
+<edge id="43" source="13" target="44">
+<data key="elabel">1.970100</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">1.9701</data>
+<data key="eeta">0.477775</data>
+<data key="ephi">2.51486</data>
+<data key="ee">2.46636</data>
+</edge>
+<edge id="44" source="13" target="45">
+<data key="elabel">1.353980</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">1.35398</data>
+<data key="eeta">0.416956</data>
+<data key="ephi">2.49436</data>
+<data key="ee">1.83168</data>
+</edge>
+<edge id="45" source="23" target="46">
+<data key="elabel">26.130600</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">26.1306</data>
+<data key="eeta">0.181161</data>
+<data key="ephi">2.09184</data>
+<data key="ee">26.5606</data>
+</edge>
+<edge id="46" source="34" target="47">
+<data key="elabel">4.039780</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.03978</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.96843</data>
+<data key="ee">4.5591</data>
+</edge>
+<edge id="47" source="21" target="48">
+<data key="elabel">0.906326</data>
+<data key="epl">0</data>
+<data key="epid">3</data>
+<data key="estat">0</data>
+<data key="ept">0.906326</data>
+<data key="eeta">0.461505</data>
+<data key="ephi">3.87455</data>
+<data key="ee">1.4959</data>
+</edge>
+<edge id="48" source="21" target="49">
+<data key="elabel">0.795633</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">0.795633</data>
+<data key="eeta">0.419536</data>
+<data key="ephi">3.88576</data>
+<data key="ee">1.39202</data>
+</edge>
+<edge id="49" source="47" target="50">
+<data key="elabel">4.096340</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.09634</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.96843</data>
+<data key="ee">4.62293</data>
+</edge>
+<edge id="50" source="28" target="51">
+<data key="elabel">9.797740</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.79774</data>
+<data key="eeta">0.291308</data>
+<data key="ephi">2.13778</data>
+<data key="ee">10.2979</data>
+</edge>
+<edge id="51" source="28" target="52">
+<data key="elabel">4.456110</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.45611</data>
+<data key="eeta">0.286288</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.75537</data>
+</edge>
+<edge id="52" source="39" target="53">
+<data key="elabel">9.874180</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.87418</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.87418</data>
+</edge>
+<edge id="53" source="52" target="54">
+<data key="elabel">4.616490</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.61649</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.81636</data>
+</edge>
+<edge id="54" source="36" target="55">
+<data key="elabel">1.939610</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">1.93961</data>
+<data key="eeta">0.348463</data>
+<data key="ephi">2.13118</data>
+<data key="ee">2.05857</data>
+</edge>
+<edge id="55" source="53" target="56">
+<data key="elabel">9.811830</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.81183</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.81183</data>
+</edge>
+<edge id="56" source="54" target="57">
+<data key="elabel">4.513030</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.51303</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.70843</data>
+</edge>
+<edge id="57" source="50" target="58">
+<data key="elabel">4.103350</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.10335</data>
+<data key="eeta">0.501524</data>
+<data key="ephi">1.95949</data>
+<data key="ee">4.62917</data>
+</edge>
+<edge id="58" source="41" target="59">
+<data key="elabel">0.626672</data>
+<data key="epl">0</data>
+<data key="epid">3</data>
+<data key="estat">0</data>
+<data key="ept">0.626672</data>
+<data key="eeta">0.754587</data>
+<data key="ephi">3.20268</data>
+<data key="ee">1.53237</data>
+</edge>
+<edge id="59" source="41" target="60">
+<data key="elabel">0.713112</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">0.713112</data>
+<data key="eeta">0.813066</data>
+<data key="ephi">3.20258</data>
+<data key="ee">1.65706</data>
+</edge>
+<edge id="60" source="56" target="61">
+<data key="elabel">9.925900</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">9.9259</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">9.9259</data>
+</edge>
+<edge id="61" source="46" target="62">
+<data key="elabel">24.711300</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">24.7113</data>
+<data key="eeta">0.181161</data>
+<data key="ephi">2.09184</data>
+<data key="ee">25.1179</data>
+</edge>
+<edge id="62" source="43" target="63">
+<data key="elabel">16.444700</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.4447</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.12138</data>
+<data key="ee">16.4531</data>
+</edge>
+<edge id="63" source="58" target="64">
+<data key="elabel">4.174110</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.17411</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.95949</data>
+<data key="ee">4.71069</data>
+</edge>
+<edge id="64" source="57" target="65">
+<data key="elabel">4.586960</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.58696</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.78556</data>
+</edge>
+<edge id="65" source="64" target="66">
+<data key="elabel">4.223910</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.22391</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.95949</data>
+<data key="ee">4.76689</data>
+</edge>
+<edge id="66" source="66" target="67">
+<data key="elabel">4.344570</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.34457</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.95949</data>
+<data key="ee">4.90307</data>
+</edge>
+<edge id="67" source="65" target="68">
+<data key="elabel">4.659660</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.65966</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.8614</data>
+</edge>
+<edge id="68" source="61" target="69">
+<data key="elabel">10.230400</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">10.2304</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">10.2304</data>
+</edge>
+<edge id="69" source="63" target="70">
+<data key="elabel">16.393800</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.3938</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.12138</data>
+<data key="ee">16.4022</data>
+</edge>
+<edge id="70" source="68" target="71">
+<data key="elabel">4.768070</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.76807</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.9745</data>
+</edge>
+<edge id="71" source="71" target="72">
+<data key="elabel">4.683280</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.68328</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.88604</data>
+</edge>
+<edge id="72" source="69" target="73">
+<data key="elabel">10.170400</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">10.1704</data>
+<data key="eeta">0</data>
+<data key="ephi">5.26913</data>
+<data key="ee">10.1704</data>
+</edge>
+<edge id="73" source="70" target="74">
+<data key="elabel">16.304300</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">16.3043</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.12138</data>
+<data key="ee">16.3128</data>
+</edge>
+<edge id="74" source="72" target="75">
+<data key="elabel">4.633330</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.63333</data>
+<data key="eeta">0.293213</data>
+<data key="ephi">2.13805</data>
+<data key="ee">4.83394</data>
+</edge>
+<edge id="75" source="74" target="76">
+<data key="elabel">17.593200</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">17.5932</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.12138</data>
+<data key="ee">17.6023</data>
+</edge>
+<edge id="76" source="67" target="77">
+<data key="elabel">4.240490</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">4.24049</data>
+<data key="eeta">0.50177</data>
+<data key="ephi">1.95949</data>
+<data key="ee">4.7856</data>
+</edge>
+<edge id="77" source="62" target="78">
+<data key="elabel">24.776100</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">24.7761</data>
+<data key="eeta">0.181161</data>
+<data key="ephi">2.09184</data>
+<data key="ee">25.1838</data>
+</edge>
+<edge id="78" source="76" target="79">
+<data key="elabel">17.667300</data>
+<data key="epl">0</data>
+<data key="epid">21</data>
+<data key="estat">0</data>
+<data key="ept">17.6673</data>
+<data key="eeta">0.0321232</data>
+<data key="ephi">5.12138</data>
+<data key="ee">17.6764</data>
+</edge>
+</graph>
+</graphml>
