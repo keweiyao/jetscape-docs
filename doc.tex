@@ -47,42 +47,65 @@
 %\end{frame}
 
 \begin{frame}
+\begin{overprint}
+\onslide<1> Modules: Hard process, nuclear initial condition, one/more transport model, hydro information, hadronization.
+\onslide<2> Many modules require data / function calls from the others.
+\end{overprint}
 \begin{center}
-\includegraphics[width=\textwidth]{./talks/p3.pdf}
+\includegraphics[width=0.9\textwidth]{./talks/p3.pdf}
 \end{center}
 \end{frame}
 
 \begin{frame}
+A jetscape object / environment that handles data feeding / collection; communication between modules; init and exec of each module, etc.
 \begin{center}
-\includegraphics[width=\textwidth]{./talks/p5.pdf}
+\includegraphics[width=0.95\textwidth]{./talks/p5.pdf}
 \end{center}
 \end{frame}
 
 \begin{frame}
+\begin{overprint}
+\onslide<1> Each module appears as a task in the work-flow. Jetscape object executes the tasks and handles communications. 
+\onslide<2> Users only focus on implementing physics.
+\end{overprint}
 \begin{center}
-\includegraphics[width=\textwidth]{./talks/p7.pdf}
+\includegraphics[width=0.95\textwidth]{./talks/p6.pdf}
 \end{center}
 \end{frame}
 
 \begin{frame}
-\begin{center}
-\includegraphics[width=0.9\textwidth]{./framework.pdf}
-\end{center}
+\begin{columns}
+\begin{column}{0.8\textwidth}
+\includegraphics[width=\textwidth]{./framework.pdf}
+\end{column}
+\begin{column}{0.2\textwidth}
+Framework code defines base class of phy modules.\\
+\vspace{.5cm}
+A template we can fill in our phy models.\\
+\vspace{.5cm}
+Duplicate the template and implement interface functions, e.g.\\
+DoEnergyLoss()\\
+GetHydroCell()
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}
+Here, the PGun, Brick, JetScapeWriterAscii, Matter and Martini are also user implemented modules based on corresponding jetscape templates.
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./talks/p38.pdf}
 \end{center}
 \end{frame}
 
 \begin{frame}
+Then, add instances of user modules to the jetscape workflow. It will know when to execute each module and where to find the required data.
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./talks/p39.pdf}
 \end{center}
 \end{frame}
 
 \begin{frame}
+Combine different transport models is easy in this framework.
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./talks/s25.pdf}
 \end{center}
@@ -97,16 +120,24 @@ For example:
 In JetScape framework code, this is simply:
 \begin{lstlisting}
 ...
-jloss->Add(matter)
-jloss->Add(martini)
+jloss->Add(matter) // Matter check Q; only updates high Q partons
+jloss->Add(martini) // Martini only updates low Q partons
 
 jlossmanager->Add(joss)
 jetscape->Add(jlossmanager)
 jetscape->Init()
-jetscape->Exec()
+jetscape->Exec() // For each time step, jetscape calls matter followed by martini, and then next time step and so on...
 ...
 \end{lstlisting}
-The jetscape object will feed and collect the input/output parton data from the transport module. Run order "Matter-Martini" in each time step.
+The jetscape object will feed and collect the input/output parton data from the transport module. 
+\end{frame}
+
+\begin{frame}{Data are stored in trees}
+\begin{itemize}
+\item All the branchings, scatterings, of partons in jet are stored in a tree structure. One can reconstruct the whole time evolution.
+\item User can also define new writers to output wanted info.
+\item Jetscape also provides output to ".xml" format $\rightarrow$ visualization.\\
+\end{itemize}
 
 \end{frame}
 
@@ -127,6 +158,23 @@ The jetscape object will feed and collect the input/output parton data from the 
 \end{overprint}
 \end{figure}
 \end{center}
+\end{frame}
+
+\begin{frame}{Use jetscape framework}
+\begin{columns}
+\begin{column}{0.3\textwidth}
+\includegraphics[width=\textwidth]{branches.png}
+\end{column}
+\begin{column}{0.7\textwidth}
+\begin{itemize}
+\item Currently, the repo is a little messy. The official JETSCAPE 1.0 is still under developing. 
+\item We have many transport modules: parton cascade model, Diffusion (Fortran/C++), Heavy quark linear Boltzmann equation (C++).
+\item Use this environment to connect among these and to other models.
+\end{itemize}
+\end{column}
+\end{columns}
+
+
 \end{frame}
 
 \end{document}
